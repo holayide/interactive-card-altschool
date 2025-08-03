@@ -9,7 +9,7 @@ export default function CardBack() {
   const { cardData } = context;
 
   return (
-    <article className="w-[300px] h-[160px] xxs:w-[400px] xxs:h-[200px] order-1 lg:order-2 rounded-[7px] bg-[url(./assets/bg-card-back.png)] bg-no-repeat bg-center bg-cover translate-x-5 lg:translate-x-20 shadow-2xl">
+    <article className="w-[300px] h-[160px] xxs:w-[400px] xxs:h-[200px] order-1 lg:order-2 z-0 rounded-[7px] bg-[url(./assets/bg-card-back.png)] bg-no-repeat bg-center bg-cover translate-x-5 lg:translate-x-20 shadow-2xl">
       <div className="h-full relative">
         <p className="absolute top-[69px] xxs:top-[86px] right-10 xxs:right-12 text-sm xxs:text-base">
           {cardData.cvc || "000"}

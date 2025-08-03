@@ -11,7 +11,7 @@ export default function CardFront() {
   const { cardData } = context;
 
   return (
-    <article className="w-[300px] h-[160px] xxs:w-[400px] xxs:h-[200px] p-6 order-2 lg:order-1 rounded-[7px] bg-[url(./assets/bg-card-front.png)] bg-no-repeat bg-center bg-cover shadow-2xl -translate-y-[100.5px] -translate-x-5 xxs:-translate-y-[116.5px] lg:-translate-y-0 lg:-translate-x-0">
+    <article className="w-[300px] h-[160px] xxs:w-[400px] xxs:h-[200px] p-6 order-2 lg:order-1 z-5 rounded-[7px] bg-[url(./assets/bg-card-front.png)] bg-no-repeat bg-center bg-cover shadow-2xl -translate-y-[100.5px] -translate-x-5 xxs:-translate-y-[116.5px] lg:-translate-y-0 lg:-translate-x-0">
       <div className="h-full flex flex-col">
         <div>
           <img src={cardLogo} alt="card Logo" className="h-7 xxs:h-auto" />

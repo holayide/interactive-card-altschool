@@ -19,7 +19,7 @@ function App() {
             />
           </picture>
 
-          <div className="absolute pt-7 flex flex-col gap-8 text-white top-0 lg:top-1/2 left-1/2 lg:-translate-y-1/2  -translate-x-1/2">
+          <div className="absolute pt-7 flex flex-col gap-8 text-white top-0 lg:top-1/2 left-1/2 lg:-translate-y-1/2 -translate-x-1/2">
             <CardFront />
             <CardBack />
           </div>
